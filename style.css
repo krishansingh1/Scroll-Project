@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 
 *,
 ::after,
@@ -37,15 +37,14 @@ body {
   cursor: pointer;
   transition: all 0.3s linear;
 }
-.nav-bars:hover{
-   color: #49a6e9; 
+.nav-bars:hover {
+  color: #49a6e9;
 }
 .links li {
   list-style-type: none;
   padding-bottom: 1.5rem;
   padding-left: 0.6rem;
 }
-
 
 .links li a {
   text-decoration: none;
@@ -55,10 +54,12 @@ body {
   font-weight: bold;
 }
 
-.links li a:hover{
-    color: black;
-  }
+.links li a:hover {
+  color: black;
+  padding-left: 0.5rem;
+  background: hsl(210, 22%, 49%);
+  transition: all 0.3s linear;
+}
 
-  @media screen and (min-width:800px){
-    
-  }
+@media screen and (min-width: 800px) {
+}
