@@ -37,28 +37,30 @@ body {
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
 .nav-bars:hover {
   color: #49a6e9;
 }
+
 .links li {
   list-style-type: none;
   padding-bottom: 1.5rem;
   padding-left: 0.6rem;
 }
 
-.links li a {
+.links a {
   text-decoration: none;
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
   color: hsl(210, 22%, 49%);
   font-weight: bold;
+  display: block;
+  transition: all 0.3s linear;
 }
 
 .links li a:hover {
   color: black;
   padding-left: 0.5rem;
-  background: hsl(210, 22%, 49%);
-  transition: all 0.3s linear;
 }
 
 @media screen and (min-width: 800px) {
