@@ -64,7 +64,19 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-  .nav-center{
-    
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+  }
+  .nav-bars {
+    display: none;
+  }
+  .links {
+    display: flex;
+    margin: 1rem 3rem;
+  }
+  .scroll-links {
+    justify-content: space-around;
   }
 }
