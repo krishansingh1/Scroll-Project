@@ -1,6 +1,7 @@
 const toogle = document.querySelector(".nav-bars");
-const nav = document.getElementById('nav')
+const links = document.querySelector('.links');
+
 toogle.addEventListener('click', () => {
-    nav.classList.toggle('show-links');
+    links.classList.toogle('show-links');
 })
 
