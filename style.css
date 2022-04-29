@@ -48,6 +48,7 @@ body {
 
 .links li {
   list-style-type: none;
+  padding-top: 1rem;
   padding-bottom: 1.5rem;
   padding-left: 0.6rem;
 }
@@ -74,7 +75,7 @@ body {
 }
 
 .show-links {
-  height: 10rem;
+  height: 14rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -89,8 +90,9 @@ body {
   }
   .links {
     display: flex;
-    margin: 1rem 0rem;
-    margin-left: 14rem;
+    /* margin: 1rem 0rem; */
+    margin-left: 16rem;
+    overflow: visible;
   }
   .links a {
     color: #fff;
@@ -137,3 +139,4 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
+
