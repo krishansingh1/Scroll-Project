@@ -81,17 +81,17 @@ body {
 @media screen and (min-width: 800px) {
   .nav-center {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     background: transparent;
-    /* position: fixed; */
+  }
+  .nav-header {
+    padding: 0;
   }
   .nav-bars {
     display: none;
   }
   .links {
     display: flex;
-    /* margin: 1rem 0rem; */
-    margin-left: 16rem;
     overflow: visible;
   }
   .links a {
@@ -140,3 +140,8 @@ header {
   letter-spacing: 0.3rem;
 }
 
+/* @media screen and(min-width:700px) {
+  .container h1{
+    font-size: 2rem;
+  }
+} */
