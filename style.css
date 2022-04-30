@@ -120,6 +120,32 @@ header {
     url(./hero-bcg.jpeg) center/cover no-repeat;
 }
 
+@media screen and (max-width: 500px) {
+  .banner {
+    min-height: 98vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+  }
+
+  .container h1 {
+    font-size: 3.3rem;
+    /* letter-spacing: 0.4rem; */
+    font-weight: bold;
+  }
+
+  .container p {
+    font-size: 0.9rem;
+    width: 25rem;
+    padding-bottom: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .btn {
+    padding: 0.5rem 0.7rem;
+  }
+}
+
 .banner {
   min-height: 80vh;
   display: grid;
@@ -152,27 +178,10 @@ header {
   letter-spacing: 0.3rem;
 }
 
-@media screen and (min-width: 500px) {
-  .banner {
-    min-height: 98vh;
-    display: grid;
-    place-items: center;
-    align-items: center;
-  }
+.section {
+  min-height: 100vh;
+}
 
-  .container h1 {
-    font-size: 3.3rem;
-    /* letter-spacing: 0.4rem; */
-    font-weight: bold;
-  }
-
-  .container p {
-    font-size: 0.9rem;
-    width: 25rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .btn {
-    padding: 0.5rem 0.6rem;
-  }
+.title {
+  font-size: 3rem;
 }
