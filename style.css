@@ -188,6 +188,10 @@ header {
   min-height: 100vh;
 }
 
+#services {
+  background: #fff;
+}
+
 .title {
   display: grid;
   place-items: center;
@@ -200,4 +204,20 @@ header {
 
 .title span {
   color: hsla(182, 63%, 54%);
+}
+
+.footer {
+  min-height: 31vh;
+  background: hsl(209, 61%, 16%);
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+
+.footer p {
+  /* width: 90vw; */
+  font-size: 0.9rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
 }
