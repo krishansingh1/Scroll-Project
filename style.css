@@ -79,6 +79,12 @@ body {
 }
 
 @media screen and (min-width: 800px) {
+  #nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+
   .nav-center {
     width: 90vw;
     max-width: 1170px;
@@ -121,7 +127,7 @@ header {
 }
 
 .banner {
-  min-height: 100vh;
+  min-height: 127vh;
   display: grid;
   place-items: center;
   text-align: center;
@@ -183,5 +189,5 @@ header {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 1.3rem;
 }
