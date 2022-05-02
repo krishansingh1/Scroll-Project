@@ -221,9 +221,19 @@ header {
   text-transform: capitalize;
 }
 
-.top-link{
+.top-link {
   font-size: 1.25rem;
   position: fixed;
   bottom: 3rem;
   right: 3rem;
+  background: hsla(182, 63%, 54%);
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.3rem;
+  color: #fff;
+  /* visibility: hidden; */
+  z-index: -100;
 }
+
