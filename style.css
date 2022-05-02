@@ -220,3 +220,10 @@ header {
   letter-spacing: 0.2rem;
   text-transform: capitalize;
 }
+
+.top-link{
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+}
