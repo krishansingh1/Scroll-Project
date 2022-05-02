@@ -236,8 +236,6 @@ header {
   color: #fff;
   animation: bounce 2s ease-in-out infinite;
   /* visibility: hidden; */
-  border: none;
-  z-index: -100;
 }
 
 @keyframes bounce {
