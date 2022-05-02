@@ -231,10 +231,12 @@ header {
   height: 2rem;
   display: grid;
   place-items: center;
+  /* align-items: center; */
   border-radius: 0.6rem;
   color: #fff;
   animation: bounce 2s ease-in-out infinite;
   /* visibility: hidden; */
+  border: none;
   z-index: -100;
 }
 
