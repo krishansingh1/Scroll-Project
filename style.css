@@ -229,8 +229,8 @@ header {
   background: hsla(182, 63%, 54%);
   width: 2rem;
   height: 2rem;
-  display: grid;
-  place-items: center;
+  text-align: center;
+  padding-top: 0.25rem;
   border-radius: 0.6rem;
   color: #fff;
   animation: bounce 2s ease-in-out infinite;
